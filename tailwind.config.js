@@ -12,7 +12,10 @@ module.exports = {
           1:'E2E2D5',
           2:"#888883"
         }
-      } 
+      },
+      fontFamily: {
+        Roboto:["Roboto"]
+      }
     },
   },
   variants: {},
