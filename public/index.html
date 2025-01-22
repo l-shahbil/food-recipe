@@ -5,15 +5,17 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body class="text-gry-600">
+<body class="text-gray-600">
     <div> <!--content wrapper-->
         <div><!--Start Navbar-->
             <nav>
-                <div class="font-bold uppercase">
-                    <h1>Food Laith</h1>
+                <div>
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100	">
+                        <a href="">Food Laith</a>
+                    </h1>
                 </div>
                 <ul>
-                    <li class="font-bold text-gry-700">
+                    <li class="font-bold text-gray-700">
                         <a href="#">
                             <span>Home</span>
                         </a>
@@ -35,20 +37,20 @@
                 </ul>
             </nav>
         </div><!--end Nav-->
-        <main>
+        <main class="px-16 py-6">
             <div>
                 <a href="#">Log in</a>
                 <a href="#">Sing up</a>
             </div>
             <header>
-                <h2 class="text-gry-700 text-6xl font-semibold">Recipes</h2>
+                <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
                 <h3 class="text-2xl font-semibold">For Laith</h3>
             </header>
-            <div><!--the main section contains the cards.-->
-                <h4>Latest Recipes</h4>
-                <div>
+            <div ><!--the main section contains the cards.-->
+                <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Latest Recipes</h4>
+                <div class="mt-8">
                 <!-- card go here -->
-                 <div>
+                 <div >
                     <img src="./img/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="">
                     <div>
                         <span>5 Bean Chille Stew</span>
@@ -57,12 +59,12 @@
                  </div>
                 </div>
 
-                <h4>Most Pupular</h4>
-                <div>
+                <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Most Pupular</h4>
+                <div class="mt-8">
                 <!-- card go here -->
                 </div>
             </div>
-            <div>
+            <div class="mt-12">
                 <div>Load More...</div>
             </div>
         </main>
