@@ -20820,6 +20820,11 @@ video {
 }
 
 .badge{
+  position: absolute;
+  top: 0;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
   --bg-opacity: 1;
   background-color: #E2E2D5;
   background-color: rgba(226, 226, 213, var(--bg-opacity));
@@ -20830,9 +20835,6 @@ video {
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 9999px;
-  padding: 0.5rem;
-  position: absolute;
-  top: 0;
 }
 
 .btn{
