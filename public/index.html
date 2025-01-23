@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body class="text-gray-600 font-Roboto ">
-    <div class="grid md:grid-cols-3"> <!--content wrapper-->
-        <div class="md:col-span-1 md:flex md:justify-end" ><!--Start Navbar-->
+    <div class="grid md:grid-cols-6"> <!--content wrapper-->
+        <div class="md:col-span-1 md:flex md:justify-end " ><!--Start Navbar-->
             <nav class="text-right">
                 <div class="flex justify-between items-center">
                     <h1 class="font-bold uppercase p-4 border-b border-gray-100">
@@ -48,7 +48,7 @@
                 </ul>
             </nav>
         </div><!--end Nav-->
-        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+        <main class="px-16 py-6 bg-gray-100 md:col-span-5">
             <div class="flex justify-center md:justify-end">
                 <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Log in</a>
                 <a href="#" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Sing up</a>
@@ -102,13 +102,47 @@
                 </div>
 
                 <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Most Pupular</h4>
-                <div class="mt-8">
-                <!-- card go here -->
-                </div>
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
+                    <!-- card go here -->
+                     <div class="card  hover:shadow-lg">
+                        <img src="./img/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg" alt="" class="w-full sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chille Stew</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Ali</span>
+                        </div>
+                        <div class="badge">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                              </svg>                          
+                            <span>25 mins</span>
+                        </div>
+                     </div>
+    
+                     <div class="card hover:shadow-lg">
+                        <img src="./img/jennifer-schmidt-zOlQ7lF-3vs-unsplash.jpg" alt="" class="w-full sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chille Stew</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Ali</span>
+                        </div>
+                        <div class="badge">
+                            <span>25 mins</span>
+                        </div>
+                     </div>
+    
+                     <div class="card hover:shadow-lg">
+                        <img src="./img/taylor-kiser-POFG828-GQc-unsplash.jpg" alt="" class="w-full sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean Chille Stew</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Ali</span>
+                        </div>
+                        <div class="badge">
+                            <span>25 mins</span>
+                        </div>
+                     </div>
             </div>
 
             <div class="flex justify-center mt-12">
-                <div class="btn bg-secondry-1 text-secondry-2 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">Load More...</div>
+                <div class="btn bg-secondry-1 text-secondry-2 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">Load More</div>
             </div>
         </main>
         </div>
