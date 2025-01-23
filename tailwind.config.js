@@ -9,7 +9,7 @@ module.exports = {
       colors:{
         primary:'#FF3636',
         secondry:{
-          1:'E2E2D5',
+          1:'#E2E2D5',
           2:"#888883"
         }
       },
